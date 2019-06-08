@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "linterOptions": {
+    "exclude": ["node_modules"]
+  },
+  "jsRules": {},
+  "rules": {
+    "no-console": false,
+    "trailing-comma": false
+  },
+  "rulesDirectory": []
+}
