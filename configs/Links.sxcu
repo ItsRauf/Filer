@@ -1,0 +1,15 @@
+{
+  "Version": "12.4.1",
+  "Name": "LinkShortener",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "<url>/links/shorten",
+  "Headers": {
+    "Authorization": "<filer password>"
+  },
+  "Body": "FormURLEncoded",
+  "Arguments": {
+    "url": "$input$"
+  },
+  "URL": "<url>/links/$response$"
+}

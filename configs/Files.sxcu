@@ -1,0 +1,13 @@
+{
+  "Version": "12.4.1",
+  "Name": "ImageUploader",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "<url>/files/upload",
+  "Headers": {
+    "Authorization": "<filer password>"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file",
+  "URL": "<url>/files/$response$"
+}
