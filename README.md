@@ -14,7 +14,7 @@ npm install @itsrauf/filer
 
 ## Usage Example
 
-_append `__dirname` to `destination` to upload to your directory_
+_append `__dirname` to `destination` to upload to your directory_  
 _password is not required as Filer generates a new password per session if a password is not specified_
 
 ```js
